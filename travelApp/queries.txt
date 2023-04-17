@@ -1,0 +1,5 @@
+Vacations.objects.create(Name = "Nashville Tennesseee", TravelStart = "May 26 2019", TravelEnd = "May 28 2019", Plan = "Wrestelmania", Traveler = User.objects.get(id=1))
+
+
+
+User.objects.get(id=1).Traveler.add(Vacations.objects.get(id=4))

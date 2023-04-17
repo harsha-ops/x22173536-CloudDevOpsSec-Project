@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<style>
+    header {
+  background-color: #f1f3f5;
+  padding: 10px;
+}
+
+/* Center the logo and give it some space */
+.navbar-brand {
+  display: block;
+  color: #090909;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 10px;
+}
+
+header{
+
+  background-color: #dfe0e4;
+}
+
+
+/* Set the color of the active menu item */
+.navbar-nav .nav-item.active .nav-link {
+  color: #0f0f0f;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #0f0f0f;
+}
+
+/* Style the menu items */
+.navbar-nav .nav-link {
+  color: #000;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  margin-top: 10px;
+
+}
+
+
+
+/* Style the login button */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 4px 9px;
+  margin-left: 10px;
+}
+
+/* Add some spacing between menu items */
+.navbar-nav .nav-item {
+  margin-right: 10px;
+}
+
+/* Remove the default margin on the left side of the navbar */
+.navbar-collapse {
+  margin-left: 0;
+}
+
+/* Set background color and padding for the main section */
+
+.nav-item1 {
+  list-style: none;
+  margin-right: 12px;
+  white-space: nowrap;
+  margin-top: 10px;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+footer {
+  background-color: #dfe0e4;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+footer h5 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+footer p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+
+footer ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer .list-inline-item a {
+  color: #333;
+  font-size: 24px;
+  transition: all .3s ease-in-out;
+}
+
+footer .list-inline-item a:hover {
+  color: #1abc9c;
+  transform: scale(1.2);
+}
+
+footer .text-center {
+  background-color: #1abc9c;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+.a5{
+  font-size: 20px;
+}
+
+table {
+          font-family: arial, sans-serif;
+          border-collapse: collapse;
+          width: 100%;
+        }
+        
+        td, th {
+          border: 1px solid #dddddd;
+          text-align: left;
+          padding: 8px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: #dddddd;
+        }
+
+.a33{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.a44{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.a55{
+  text-align: center;
+  margin-left: 620px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+
+}
+
+table{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.a122{
+  background-color: #dfe0e4;
+}
+
+</style>
+</head>
+
+<header>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">TravelApp</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Help</a>
+        </li>
+        <li class="nav-item">
+                
+          <a class="nav-link" href="/index">signout</a>
+        </li>
+      </ul>
+      
+    </div>
+    </nav>
+</header>
+<body>
+
+  <div class="a122">
+    <h1 class="a33">SUCCESS!! Welcome {{loggedInId.Name}} </h1>
+    <!--<a href="/logout">Logout</a>-->
+    <h1 class="a44">"Your Trips"</h1>
+    <table>
+        <tr>
+          <th>Destination</th>
+          <th>Date of Vacation</th>
+          <th>Vacation Return Date</th>
+          <th>Plans for Trip </th>
+        </tr>
+        {% for x in YourTrips %}
+        <tr>
+          <td><a href="/destination/{{x.id}}">{{x.Name}}</a></td>
+          <td>{{x.TravelStart}}</td>
+          <td>{{x.TravelEnd}}</td>
+          <td>{{x.Plan}}</td>
+          <td><a href="/cancel/{{x.id}}"><button class="btn btn-primary btn-med2">Cancel</button></a></td>
+        </tr>
+       {% endfor %}
+      </table>
+
+      <h1 class="a44">"Others Travel Plans"</h1>
+
+        <table>
+            <tr>
+            <th>Destination</th>
+            <th>Date of Vacation</th>
+            <th>Vacation Return Date</th>
+            <th>Plans for Trip </th>
+            </tr>
+        {% for x in otherTrips %}
+            <tr>
+            <td><a href="/destination/{{x.id}}">{{x.Name}}</a></td>
+            <td>{{x.TravelStart}}</td>
+            <td>{{x.TravelEnd}}</td>
+            <td>{{x.Plan}}</td>
+            <td><a href="/JoinTrip/{{x.id}}"><button class="btn btn-primary btn-med2">Join?</button></a></td>
+            </tr>
+        {% endfor %}
+        </table>
+
+        <a href="/travels/add"><button class="a55 btn btn-primary btn-med2">Click here to add a travel plan</button></a>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</div>
+      </body>
+
+
+<footer class="text-center text-lg-start">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contact Us</h5>
+
+        <p>
+          765 Upper St,<br>
+          Suite 50,<br>
+          Dublin, Ireland <br>
+          Phone: (353) 456-7890<br>
+          Email: info@digimark.com
+        </p>
+      </div>
+
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Follow Us</h5>
+
+        <ul class="list-unstyled list-inline mt-3">
+          <li class="list-inline-item">
+            
+    
+<a href="#" class="fa fa-twitter"></a>
+
+            
+          </li>
+          <li class="list-inline-item">
+            
+              <a href="#" class="fa fa-google"></a>
+            
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="fa fa-linkedin"></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="#" class="fa fa-instagram"></a>
+          
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(10, 10, 10, 0.2);">
+    &copy; 2023 x22173536 TravelApp. All rights reserved.
+  </div>
+</footer>
+
+</html>
