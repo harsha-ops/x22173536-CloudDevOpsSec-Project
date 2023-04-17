@@ -7,6 +7,7 @@ phases:
             - pip install --upgrade pip
             # Install dependencies needed for running the static analysis
             - pip install -r requirements.txt
+            - pylint --disable=C0103 simplecaesar.py
     pre_build:
         commands:
             - python --version
