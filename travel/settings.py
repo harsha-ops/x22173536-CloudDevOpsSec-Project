@@ -1,3 +1,4 @@
+# pylint: disable=trailing-newlines
 """
 Django settings for travel project.
 

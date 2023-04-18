@@ -1,3 +1,5 @@
+# pylint: disable=invalid-name
+# pylint: disable=trailing-newlines
 """
 WSGI config for travel project.
 

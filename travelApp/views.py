@@ -1,3 +1,12 @@
+# pylint: disable=invalid-name
+# pylint: disable=missing-function-docstring
+# pylint: disable=unused-variable
+# pylint: disable=unused-import
+# pylint: disable=bad-whitespace
+#pylint: disable=trailing-whitespace
+#pylint: disable=lines-too-long
+
+
 from django.shortcuts import render, HttpResponse, redirect
 from django.contrib import messages
 from .models import User, Vacations
