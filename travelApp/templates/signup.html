@@ -331,16 +331,16 @@ p{
 
                 <form action="/register" method="post" class="border border-primary p-md-2 ">
                     {% csrf_token %}
-                    <p class="a15">Name: <input type="text" name="name" id=""></p> 
-                    <small id="passwordHelpInline" class="form-text text-muted">
+                    <p class="a15">Name: <input type="text" name="name" id="name"></p> 
+                    <small id="password" class="form-text text-muted">
                         <p class="a17">Must be 3 characters long.</p>
                         </small>
-                    <p>UserName: <input type="text" name="Uname" id=""></p>
-                    <p class="a13">PassWord: <input type="text" name="pw" id=""></p>
-                    <small id="passwordHelpInline" class="form-text text-muted">
+                    <p>UserName: <input type="text" name="Uname" id="username"></p>
+                    <p class="a13">PassWord: <input type="password" name="pw" id="password"></p>
+                    <small id="password" class="form-text text-muted">
                         <p class="a17">Must be 8 characters long.</p>
                     </small>
-                    <p class="a14">Password Confirmed: <input type="text" name="cpw" id=""></p>
+                    <p class="a14">Password Confirmed: <input type="password" name="cpw" id="confirmPassword"></p>
                     <p class="a16"><input type="submit" value="SignUp"></p>
                 </form>
             </div>
@@ -362,11 +362,11 @@ p{
           <h5 class="text-uppercase">Contact Us</h5>
   
           <p>
-            765 Upper St,<br>
-            Suite 50,<br>
-            Dublin, Ireland <br>
-            Phone: (353) 456-7890<br>
-            Email: info@digimark.com
+            986 St,<br>
+            Suite 45,<br>
+            UK <br>
+            Phone: (353) 784098467<br>
+            Email: info@travelapp.com
           </p>
         </div>
   
