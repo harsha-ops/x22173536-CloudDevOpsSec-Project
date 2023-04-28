@@ -8,13 +8,13 @@ How to run the Application
 2. Open Terminal and Execute Following Commands :
 
 
-3. pip install -r requirements.txt
+3. Clone this project by using the GitHub repository
 
 
-4. Clone this project by using the GitHub repository
+4. Move to project folder in Terminal. Then run following Commands :
 
 
-5. Move to project folder in Terminal. Then run following Commands :
+5. pip install -r requirements.txt
 
 
 6. python manage.py makemigrations
